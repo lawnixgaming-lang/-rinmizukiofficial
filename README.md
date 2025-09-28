@@ -19,7 +19,7 @@
     html,body{height:100%;margin:0;background:linear-gradient(180deg,#071226 0%, var(--bg) 100%);color:#e6eef6}
     .wrap{max-width:var(--max-width);margin:36px auto;padding:28px;background:linear-gradient(180deg,var(--glass),transparent);border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.6);backdrop-filter:blur(6px)}
     header{display:flex;gap:20px;align-items:center}
-    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3445f0);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:20px}
+    .logo img{width:72px;height:72px;border-radius:12px;object-fit:cover}
     h1{margin:0;font-size:28px}
     p.lead{color:var(--muted);margin-top:6px}
     .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:22px}
@@ -34,13 +34,15 @@
     .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px}
     .feature{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);padding:12px;border-radius:10px}
     pre.code{background:#061124;padding:12px;border-radius:8px;color:#9ad4ff;overflow:auto;font-size:13px}
-    @media(max-width:860px){.grid{grid-template-columns:1fr;}.logo{width:56px;height:56px}}
+    @media(max-width:860px){.grid{grid-template-columns:1fr;}.logo img{width:56px;height:56px}}
   </style>
 </head>
 <body>
   <main class="wrap" role="main">
     <header>
-      <div class="logo">RM</div>
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="RinMizuki Logo">
+      </div>
       <div>
         <h1>RinMizuki — Open for Commissions</h1>
         <p class="lead">I build and set up personal Discord bots, configure servers, and deliver ready-to-run projects tailored to you.</p>
@@ -116,11 +118,11 @@ https://discord.com/oauth2/authorize?client_id=123456789&permissions=8&scope=bot
         <div class="card">
           <h3>Contact & Book</h3>
           <p class="small">To request a quote or start a commission, contact me with: your server size, desired features, and budget.</p>
-          <p style="margin-top:8px"><strong>Email</strong><br> <a href="mailto:lawnixusman@gmail.com" style="color:var(--accent);text-decoration:none">lawnixusman@gmail.com</a></p>
+          <p style="margin-top:8px"><strong>Email</strong><br> <a href="mailto:yrothebest@gmail.com" style="color:var(--accent);text-decoration:none">yrothebest@gmail.com</a></p>
           <p style="margin-top:6px"><strong>Discord</strong><br> <span style="color:var(--muted)">@rinmizukiofficial</span></p>
 
           <div style="margin-top:12px">
-            <a class="btn" href="mailto:lawnixusman@gmail.com">Email me</a>
+            <a class="btn" href="mailto:yrothebest@gmail.com">Email me</a>
             <a class="btn ghost" href="https://discord.com/users/0" target="_blank" rel="noopener">Message on Discord</a>
           </div>
 
@@ -142,7 +144,7 @@ https://discord.com/oauth2/authorize?client_id=123456789&permissions=8&scope=bot
     </div>
 
     <footer>
-      <div class="small">© RinMizuki • Open for Commissions • Email: lawnixusman@gmail.com • Discord: @rinmizukiofficial</div>
+      <div class="small">© RinMizuki • Open for Commissions • Email: yrothebest@gmail.com • Discord: @rinmizukiofficial</div>
     </footer>
   </main>
 </body>
